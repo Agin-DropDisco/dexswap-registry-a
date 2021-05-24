@@ -5,7 +5,7 @@
   "main": "truffle-config.js",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Agin-DropDisco/dexswap-registry.git"
+    "url": "git+https://github.com/Agin-DropDisco/dexswap-registry.git#v.0.1"
   },
   "bugs": {
     "url": "https://github.com/Agin-DropDisco/dexswap-registry/issues"
