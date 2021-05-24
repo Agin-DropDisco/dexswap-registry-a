@@ -14,6 +14,7 @@
     "test": "test"
   },
   "scripts": {
+    "deploy:rinkeby": "truffle migrate --network rinkeby",
     "test": "npx truffle test",
     "solhint": "./node_modules/.bin/solhint -f table contracts/**/*.sol",
     "prettier:solidity": "./node_modules/.bin/prettier --write contracts/**/*.sol"

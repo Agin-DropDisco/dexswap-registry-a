@@ -17,8 +17,7 @@
         }
       ],
       "stateMutability": "view",
-      "type": "function",
-      "constant": true
+      "type": "function"
     },
     {
       "inputs": [],
@@ -31,8 +30,7 @@
         }
       ],
       "stateMutability": "view",
-      "type": "function",
-      "constant": true
+      "type": "function"
     },
     {
       "inputs": [
@@ -48,15 +46,15 @@
       "type": "function"
     }
   ],
-  "metadata": "{\"compiler\":{\"version\":\"0.6.2+commit.bacdbe57\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"inputs\":[],\"stateMutability\":\"nonpayable\",\"type\":\"constructor\"},{\"inputs\":[],\"name\":\"last_completed_migration\",\"outputs\":[{\"internalType\":\"uint256\",\"name\":\"\",\"type\":\"uint256\"}],\"stateMutability\":\"view\",\"type\":\"function\"},{\"inputs\":[],\"name\":\"owner\",\"outputs\":[{\"internalType\":\"address\",\"name\":\"\",\"type\":\"address\"}],\"stateMutability\":\"view\",\"type\":\"function\"},{\"inputs\":[{\"internalType\":\"uint256\",\"name\":\"completed\",\"type\":\"uint256\"}],\"name\":\"setCompleted\",\"outputs\":[],\"stateMutability\":\"nonpayable\",\"type\":\"function\"}],\"devdoc\":{\"methods\":{}},\"userdoc\":{\"methods\":{}}},\"settings\":{\"compilationTarget\":{\"/mnt/d/DxSwap/All-Contract/dxDAO-Token-Registry-master/contracts/Migrations.sol\":\"Migrations\"},\"evmVersion\":\"istanbul\",\"libraries\":{},\"metadata\":{\"bytecodeHash\":\"ipfs\"},\"optimizer\":{\"enabled\":true,\"runs\":200},\"remappings\":[]},\"sources\":{\"/mnt/d/DxSwap/All-Contract/dxDAO-Token-Registry-master/contracts/Migrations.sol\":{\"keccak256\":\"0x52169b6aadab248a689bea035650ae34cf3f261af60e20faf905c643edc2dace\",\"urls\":[\"bzz-raw://847004bae69dfd74790e880c336b21e94d7aeaf075f230b86089ac1c51dcc67f\",\"dweb:/ipfs/QmYTaaYTzNa5ok85k1ohqUEEfRRxK1vWGW3dVfgQEoaDMw\"]}},\"version\":1}",
-  "bytecode": "0x608060405234801561001057600080fd5b50600080546001600160a01b0319163317905560fd806100316000396000f3fe6080604052348015600f57600080fd5b5060043610603c5760003560e01c8063445df0ac1460415780638da5cb5b146059578063fdacd57614607b575b600080fd5b60476097565b60408051918252519081900360200190f35b605f609d565b604080516001600160a01b039092168252519081900360200190f35b609560048036036020811015608f57600080fd5b503560ac565b005b60015481565b6000546001600160a01b031681565b6000546001600160a01b031633141560c45760018190555b5056fea2646970667358221220be82af5db5648d0fb5d326aea37afb0bf69d5b6a99d2273b6803a073b12bb21c64736f6c63430006020033",
-  "deployedBytecode": "0x6080604052348015600f57600080fd5b5060043610603c5760003560e01c8063445df0ac1460415780638da5cb5b146059578063fdacd57614607b575b600080fd5b60476097565b60408051918252519081900360200190f35b605f609d565b604080516001600160a01b039092168252519081900360200190f35b609560048036036020811015608f57600080fd5b503560ac565b005b60015481565b6000546001600160a01b031681565b6000546001600160a01b031633141560c45760018190555b5056fea2646970667358221220be82af5db5648d0fb5d326aea37afb0bf69d5b6a99d2273b6803a073b12bb21c64736f6c63430006020033",
+  "metadata": "{\"compiler\":{\"version\":\"0.6.2+commit.bacdbe57\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"inputs\":[],\"stateMutability\":\"nonpayable\",\"type\":\"constructor\"},{\"inputs\":[],\"name\":\"last_completed_migration\",\"outputs\":[{\"internalType\":\"uint256\",\"name\":\"\",\"type\":\"uint256\"}],\"stateMutability\":\"view\",\"type\":\"function\"},{\"inputs\":[],\"name\":\"owner\",\"outputs\":[{\"internalType\":\"address\",\"name\":\"\",\"type\":\"address\"}],\"stateMutability\":\"view\",\"type\":\"function\"},{\"inputs\":[{\"internalType\":\"uint256\",\"name\":\"completed\",\"type\":\"uint256\"}],\"name\":\"setCompleted\",\"outputs\":[],\"stateMutability\":\"nonpayable\",\"type\":\"function\"}],\"devdoc\":{\"methods\":{}},\"userdoc\":{\"methods\":{}}},\"settings\":{\"compilationTarget\":{\"/mnt/d/DxSwap/All-Contract/DEXSWAP/dexswap-registry/contracts/Migrations.sol\":\"Migrations\"},\"evmVersion\":\"istanbul\",\"libraries\":{},\"metadata\":{\"bytecodeHash\":\"ipfs\"},\"optimizer\":{\"enabled\":true,\"runs\":200},\"remappings\":[]},\"sources\":{\"/mnt/d/DxSwap/All-Contract/DEXSWAP/dexswap-registry/contracts/Migrations.sol\":{\"keccak256\":\"0x52169b6aadab248a689bea035650ae34cf3f261af60e20faf905c643edc2dace\",\"urls\":[\"bzz-raw://847004bae69dfd74790e880c336b21e94d7aeaf075f230b86089ac1c51dcc67f\",\"dweb:/ipfs/QmYTaaYTzNa5ok85k1ohqUEEfRRxK1vWGW3dVfgQEoaDMw\"]}},\"version\":1}",
+  "bytecode": "0x608060405234801561001057600080fd5b50600080546001600160a01b0319163317905560fd806100316000396000f3fe6080604052348015600f57600080fd5b5060043610603c5760003560e01c8063445df0ac1460415780638da5cb5b146059578063fdacd57614607b575b600080fd5b60476097565b60408051918252519081900360200190f35b605f609d565b604080516001600160a01b039092168252519081900360200190f35b609560048036036020811015608f57600080fd5b503560ac565b005b60015481565b6000546001600160a01b031681565b6000546001600160a01b031633141560c45760018190555b5056fea26469706673582212206b2c3580aaf3bfc8219d93e26940342d59cf2a5f9491cf101a2acb0eb35e02e864736f6c63430006020033",
+  "deployedBytecode": "0x6080604052348015600f57600080fd5b5060043610603c5760003560e01c8063445df0ac1460415780638da5cb5b146059578063fdacd57614607b575b600080fd5b60476097565b60408051918252519081900360200190f35b605f609d565b604080516001600160a01b039092168252519081900360200190f35b609560048036036020811015608f57600080fd5b503560ac565b005b60015481565b6000546001600160a01b031681565b6000546001600160a01b031633141560c45760018190555b5056fea26469706673582212206b2c3580aaf3bfc8219d93e26940342d59cf2a5f9491cf101a2acb0eb35e02e864736f6c63430006020033",
   "sourceMap": "35:345:0:-:0;;;133:56;8:9:-1;5:2;;;30:1;27;20:12;5:2;-1:-1;164:5:0;:18;;-1:-1:-1;;;;;;164:18:0;172:10;164:18;;;35:345;;;;;;",
   "deployedSourceMap": "35:345:0:-:0;;;;8:9:-1;5:2;;;30:1;27;20:12;5:2;35:345:0;;;;;;;;;;;;;;;;;;;;;;;;;;;;;87:39;;;:::i;:::-;;;;;;;;;;;;;;;;61:20;;;:::i;:::-;;;;-1:-1:-1;;;;;61:20:0;;;;;;;;;;;;;;266:112;;;;;;13:2:-1;8:3;5:11;2:2;;;29:1;26;19:12;2:2;-1:-1;266:112:0;;:::i;:::-;;87:39;;;;:::o;61:20::-;;;-1:-1:-1;;;;;61:20:0;;:::o;266:112::-;245:5;;-1:-1:-1;;;;;245:5:0;231:10;:19;227:26;;;335:24:::1;:36:::0;;;227:26;266:112;:::o",
   "source": "pragma solidity >=0.4.21 <0.7.0;\n\n\ncontract Migrations {\n    address public owner;\n    uint256 public last_completed_migration;\n\n    constructor() public {\n        owner = msg.sender;\n    }\n\n    modifier restricted() {\n        if (msg.sender == owner) _;\n    }\n\n    function setCompleted(uint256 completed) public restricted {\n        last_completed_migration = completed;\n    }\n}\n",
-  "sourcePath": "/mnt/d/DxSwap/All-Contract/dxDAO-Token-Registry-master/contracts/Migrations.sol",
+  "sourcePath": "/mnt/d/DxSwap/All-Contract/DEXSWAP/dexswap-registry/contracts/Migrations.sol",
   "ast": {
-    "absolutePath": "/mnt/d/DxSwap/All-Contract/dxDAO-Token-Registry-master/contracts/Migrations.sol",
+    "absolutePath": "/mnt/d/DxSwap/All-Contract/DEXSWAP/dexswap-registry/contracts/Migrations.sol",
     "exportedSymbols": {
       "Migrations": [
         36
@@ -479,7 +477,7 @@
   },
   "legacyAST": {
     "attributes": {
-      "absolutePath": "/mnt/d/DxSwap/All-Contract/dxDAO-Token-Registry-master/contracts/Migrations.sol",
+      "absolutePath": "/mnt/d/DxSwap/All-Contract/DEXSWAP/dexswap-registry/contracts/Migrations.sol",
       "exportedSymbols": {
         "Migrations": [
           36
@@ -971,17 +969,9 @@
     "name": "solc",
     "version": "0.6.2+commit.bacdbe57.Emscripten.clang"
   },
-  "networks": {
-    "4": {
-      "events": {},
-      "links": {},
-      "address": "0x3611034135D7Bf217Fcd9b962bD402F83D21458a",
-      "transactionHash": "0xf70f8e9c2ebd8fb4158c016324dfa381cb95ee5a9274bc2b3350e8c0ba67ca8f"
-    }
-  },
+  "networks": {},
   "schemaVersion": "3.3.4",
-  "updatedAt": "2021-05-23T17:34:22.266Z",
-  "networkType": "ethereum",
+  "updatedAt": "2021-05-23T23:51:14.827Z",
   "devdoc": {
     "methods": {}
   },
