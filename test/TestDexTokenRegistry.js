@@ -6,9 +6,9 @@ contract("dexTokenRegistry", async (accounts) => {
     let __contract;
     const __owner = accounts[0];
     const __user1 = accounts[1];
-    const __tokenAddr1 = '0x5eF09cc3e4E63F9d37F1dc57b3FC6e6180178794'
-    const __tokenAddr2 = '0x47769354ACC9efac989dc5B93e652960aF534bb7'
-    const __tokenAddr3 = '0x0500f8C8AAD954936b86c06AFBa5D4e27b806352'
+    const __tokenAddr1 = '0xce5783B241F27F786579cB4F26cD0a2E4fD15318'
+    const __tokenAddr2 = '0x0705cAC4bebeef8593046C29C2f90e1E803f4919'
+    const __tokenAddr3 = '0x7885916323748d95Af838F4556F691D20e45FD73'
 
   before(async () => {
       __contract = await tokenRegistry.deployed();
