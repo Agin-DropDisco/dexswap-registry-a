@@ -578,8 +578,8 @@
     "version": "0.6.2+commit.bacdbe57.Emscripten.clang"
   },
   "networks": {},
-  "schemaVersion": "3.3.4",
-  "updatedAt": "2021-05-23T17:31:51.554Z",
+  "schemaVersion": "3.4.1",
+  "updatedAt": "2021-05-29T06:47:07.017Z",
   "devdoc": {
     "methods": {}
   },
