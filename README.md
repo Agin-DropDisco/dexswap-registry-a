@@ -1,4 +1,4 @@
-# DexSwap TOken Registry
+# DexSwap Token Registry
 
 - Use this to deploy your token to DEXSwap Dex.
 
