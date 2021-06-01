@@ -1,6 +1,6 @@
 {
   "name": "dexswap-token-registry",
-  "version": "0.1.0",
+  "version": "v0.1.1",
   "description": "A registry of token lists, curated by the dexswap",
   "main": "truffle-config.js",
   "repository": {
